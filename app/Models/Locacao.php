@@ -39,6 +39,7 @@ class Locacao extends Model
         'valor_caucao',
         'forma_locacao',
         'qtd_semanas',
+        'qtd_meses',
         'testemunha_1',
         'testemunha_2',
         'testemunha_1_rg',

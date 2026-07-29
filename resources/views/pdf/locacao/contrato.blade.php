@@ -165,6 +165,8 @@
             <b class="tx">Qtd de Diárias:</b> {{$locacao->qtd_diarias}}
         @elseif($locacao->forma_locacao == 2)
             <b class="tx">Qtd de Semanas:</b> {{$locacao->qtd_semanas}}
+        @elseif($locacao->forma_locacao == 3)
+            <b class="tx">Qtd de Meses:</b> {{$locacao->qtd_meses}}
         @endif
     </td>
     <td colspan="2">
@@ -172,6 +174,8 @@
             <b class="tx">Valor da Diária R$:</b> {{$locacao->Veiculo->valor_diaria}}
         @elseif($locacao->forma_locacao == 2)
             <b class="tx">Valor da Semana R$:</b> {{$locacao->Veiculo->valor_semana}}
+        @elseif($locacao->forma_locacao == 3)
+            <b class="tx">Valor do Mês R$:</b> {{$locacao->Veiculo->valor_mes}}
         @endif
     </td>
 

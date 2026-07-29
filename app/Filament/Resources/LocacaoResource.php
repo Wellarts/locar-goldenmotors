@@ -219,6 +219,7 @@ class LocacaoResource extends Resource
                                                     ->options([
                                                         '1' => 'Diária',
                                                         '2' => 'Semanal',
+                                                        '3' => 'Mensal',
                                                     ])
                                                     ->inline()
                                                     ->inlineLabel(false)
@@ -260,8 +261,36 @@ class LocacaoResource extends Resource
                                                             ->persistent()
                                                             ->send();
                                                     })
-                                                    ->hidden(fn(Get $get) => $get('forma_locacao') == 1)
-                                                    ->required(),
+                                                    ->hidden(fn(Get $get) => $get('forma_locacao') != 2)
+                                                    ->required(fn(Get $get) => $get('forma_locacao') == 2),
+                                                Forms\Components\TextInput::make('qtd_meses')
+                                                    ->extraInputAttributes(['style' => 'font-weight: bolder; font-size: 1rem; color: #CF9A16;'])
+                                                    ->label('Qtd Meses')
+                                                    ->numeric()
+                                                    ->default(1)
+                                                    ->live(onBlur: true)
+                                                    ->afterStateUpdated(function ($state, callable $set, Get $get) {
+                                                        $set('data_retorno', Carbon::parse($get('data_saida'))->addMonths($state)->format('Y-m-d'));
+                                                        $set('hora_retorno', Carbon::parse($get('hora_saida'))->format('H:i'));
+                                                        $set('qtd_diarias', Carbon::parse($get('data_saida'))->addMonths($state)->diffInDays(Carbon::parse($get('data_saida'))));
+
+                                                        $carro = Veiculo::find($get('veiculo_id'));                                                       
+                                                        $set('valor_total', ($carro->valor_mes * $state));
+                                                        $set('valor_desconto', 0);
+                                                        $set('valor_total_desconto', ($carro->valor_mes * $state));
+                                                        Notification::make()
+                                                            ->title('ATENÇÃO')
+                                                            ->body(
+                                                                'Para as informações escolhida temos:<br>
+                                                        <b>' . $state . ' MÊS(ES) / ' . $get('qtd_diarias') . ' DIA(AS), e data de retorno do veículo para ' . Carbon::parse($get('data_saida'))->addMonths($state)->format('d/m/Y') . '</b><br>
+                                                        '
+                                                            )
+                                                            ->danger()
+                                                            ->persistent()
+                                                            ->send();
+                                                    })
+                                                    ->hidden(fn(Get $get) => $get('forma_locacao') != 3)
+                                                    ->required(fn(Get $get) => $get('forma_locacao') == 3),
                                             ]),
                                     ]),
                                 Fieldset::make('Datas e Valores')
