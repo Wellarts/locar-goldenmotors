@@ -167,6 +167,7 @@ class ContasReceberResource extends Resource
     {
         return $table
             ->defaultSort('data_vencimento', 'asc')
+            ->paginated([10, 25, 50])
             ->headerActions([
                 ExportAction::make()
                     ->exporter(ContasReceberExporter::class)
