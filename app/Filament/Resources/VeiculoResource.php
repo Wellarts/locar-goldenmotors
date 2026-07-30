@@ -169,6 +169,7 @@ class VeiculoResource extends Resource
     {
         return $table
             ->defaultSort('id', 'desc')
+            ->paginated([10, 25, 50])
             ->columns([
                 Tables\Columns\TextColumn::make('id'),
                 Tables\Columns\TextColumn::make('modelo')

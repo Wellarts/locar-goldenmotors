@@ -629,6 +629,7 @@ class LocacaoResource extends Resource
     {
         return $table
             ->defaultSort('id', 'desc')
+            ->paginated([10, 25, 50])
             ->headerActions([
                 ExportAction::make()
                     ->exporter(LocacaoExporter::class)
