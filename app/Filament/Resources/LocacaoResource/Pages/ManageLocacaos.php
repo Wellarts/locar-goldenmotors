@@ -56,36 +56,39 @@ class ManageLocacaos extends ManageRecords
                             $valorTotal = (float) ($record->valor_total_financeiro ?? $data['valor_total_financeiro'] ?? 0);
                             $parcelas = (int) ($data['parcelas_financeiro'] ?? $record->parcelas_financeiro ?? 1);
                             $formaPgmto = $data['formaPgmto_financeiro'] ?? $record->formaPgmto_financeiro ?? null;
-                            $proximaParcelaDias = (int) ($data['proxima_parcela'] ?? 30);
-                            $vencimentoInicial = $record->data_vencimento_financeiro ?? $data['data_vencimento_financeiro'] ?? null;
-
-                            if (!$vencimentoInicial) {
-                                $vencimentoInicial = now()->toDateString();
-                            }
+                            $dataBase = Carbon::create($record->data_vencimento_financeiro ?? $data['data_vencimento_financeiro'] ?? now());
+                            $diaOriginal = $dataBase->day;
 
                             $valorParcela = $parcelas > 0 ? $valorTotal / $parcelas : $valorTotal;
 
                             // Não pago: gera várias parcelas (insere em lote)
                             if (!$record->status_pago_financeiro) {
                                 $rows = [];
-                                $baseVencimento = Carbon::parse($vencimentoInicial);
-                                $now = now();
 
                                 for ($i = 0; $i < max(1, $parcelas); $i++) {
-                                    $due = $baseVencimento->copy()->addDays($i * $proximaParcelaDias);
+                                    $dataVencimentos = match ((string) $data['proxima_parcela']) {
+                                        '7'  => $dataBase->copy()->addWeeks($i),
+                                        '15' => $dataBase->copy()->addWeeks($i * 2),
+                                        '30' => tap(
+                                            $dataBase->copy()->startOfMonth()->addMonths($i),
+                                            fn($d) => $d->day(min($diaOriginal, $d->daysInMonth))
+                                        ),
+                                        default => $dataBase->copy()->addDays($i * $data['proxima_parcela']),
+                                    };
+
                                     $rows[] = [
                                         'cliente_id' => $clienteId,
                                         'valor_total' => $valorTotal,
                                         'parcelas' => $parcelas,
                                         'formaPgmto' => $formaPgmto,
                                         'ordem_parcela' => $i + 1,
-                                        'data_vencimento' => $due->toDateString(),
+                                        'data_vencimento' => $dataVencimentos,
                                         'valor_recebido' => 0.00,
                                         'status' => 0,
                                         'obs' => 'Parcela referente a locação nº: ' . $record->id,
                                         'valor_parcela' => $valorParcela,
-                                        'created_at' => $now,
-                                        'updated_at' => $now,
+                                        'created_at' => now(),
+                                        'updated_at' => now(),
                                     ];
                                 }
 
@@ -100,8 +103,8 @@ class ManageLocacaos extends ManageRecords
                                     'parcelas' => 1,
                                     'formaPgmto' => $formaPgmto,
                                     'ordem_parcela' => 1,
-                                    'data_vencimento' => $vencimentoInicial,
-                                    'data_recebimento' => $vencimentoInicial,
+                                    'data_vencimento' => $dataBase,
+                                    'data_recebimento' => $dataBase,
                                     'valor_recebido' => $valorTotal,
                                     'status' => 1,
                                     'obs' => 'Recebimento referente da locação nº: ' . $record->id,

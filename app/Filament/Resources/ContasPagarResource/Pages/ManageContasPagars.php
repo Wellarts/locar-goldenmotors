@@ -19,14 +19,23 @@ class ManageContasPagars extends ManageRecords
     {
         return [
             Actions\CreateAction::make()
-            ->label('Lançar Conta')
+                ->label('Lançar Conta')
                 ->after(
                     function ($data, $record) {
                         if ($record->parcelas > 1) {
                             $valor_parcela = ($record->valor_total / $record->parcelas);
-                            $vencimentos = Carbon::create($record->data_vencimento);
+                            $dataBase = Carbon::create($record->data_vencimento);
+                            $diaOriginal = $dataBase->day;
                             for ($cont = 1; $cont < $data['parcelas']; $cont++) {
-                                $dataVencimentos = $vencimentos->addDays($data['proxima_parcela']);
+                                $dataVencimentos = match ((string) $data['proxima_parcela']) {
+                                    '7'  => $dataBase->copy()->addWeeks($cont),
+                                    '15' => $dataBase->copy()->addWeeks($cont * 2),
+                                    '30' => tap(
+                                        $dataBase->copy()->startOfMonth()->addMonths($cont),
+                                        fn($data) => $data->day(min($diaOriginal, $data->daysInMonth))
+                                    ),
+                                    default => $dataBase->copy()->addDays($cont * $data['proxima_parcela']),
+                                };
                                 $parcelas = [
                                     'fornecedor_id' => $data['fornecedor_id'],
                                     'valor_total' => $data['valor_total'],
@@ -47,7 +56,7 @@ class ManageContasPagars extends ManageRecords
                                 $addFluxoCaixa = [
                                     'valor' => ($record->valor_total * -1),
                                     'tipo'  => 'DEBITO',
-                                    'obs'   => 'Pagamento da conta do fornecedor '.$record->fornecedor->nome.'',
+                                    'obs'   => 'Pagamento da conta do fornecedor ' . $record->fornecedor->nome . '',
                                 ];
 
                                 FluxoCaixa::create($addFluxoCaixa);
