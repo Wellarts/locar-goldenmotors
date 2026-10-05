@@ -243,8 +243,7 @@
         </p>
 
         <p class="parag">
-            <b>CLÁUSULA PRIMEIRA</b><br>
-            <b>DO OBJETO</b><br>
+            <b>CLÁUSULA PRIMEIRA - DO OBJETO</b><br>
             1.1. O presente contrato tem por objeto a locação operacional da motocicleta elétrica identificada no Quadro Resumo da Operação, de propriedade da MOTOMASTER CAMPO GRANDE LTDA, doravante denominada LOCADORA, para utilização exclusiva do LOCATÁRIO, observadas todas as condições estabelecidas neste instrumento.<br>
             1.2. Durante toda a vigência contratual a motocicleta permanecerá de propriedade exclusiva da LOCADORA.<br>
             1.3. O presente contrato não transfere ao LOCATÁRIO qualquer direito de propriedade sobre o veículo.<br>
@@ -252,8 +251,7 @@
         </p>
 
         <p class="parag">
-            <b>CLÁUSULA SEGUNDA</b><br>
-            <b>DO PRAZO</b><br>
+            <b>CLÁUSULA SEGUNDA - DO PRAZO</b><br>
             2.1. O prazo da locação será aquele indicado no Quadro Resumo da Operação.<br>
             2.2. O contrato inicia-se na data da entrega do veículo.<br>
             2.3. O término ocorrerá automaticamente ao final do prazo contratado, salvo renovação expressa entre as partes.<br>
@@ -261,8 +259,7 @@
         </p>
 
         <p class="parag">
-            <b>CLÁUSULA TERCEIRA</b><br>
-            <b>DOS PAGAMENTOS</b><br>
+            <b>CLÁUSULA TERCEIRA - DOS PAGAMENTOS</b><br>
             3.1. O LOCATÁRIO compromete-se a pagar rigorosamente as parcelas nas datas estabelecidas.<br>
             3.2. O atraso no pagamento implicará:<br>
             I – multa de 2% sobre a parcela vencida;<br>
@@ -274,8 +271,7 @@
         </p>
 
         <p class="parag">
-            <b>CLÁUSULA QUARTA</b><br>
-            <b>DA CAUÇÃO</b><br>
+            <b>CLÁUSULA QUARTA - DA CAUÇÃO</b><br>
             4.1. O valor da caução será aquele previsto no Quadro Resumo da Operação.<br>
             4.2. A caução possui natureza de garantia contratual.<br>
             4.3. Poderá ser utilizada para compensação de: parcelas vencidas; danos ao veículo; multas; despesas de recuperação; custos de remoção; outras obrigações inadimplidas pelo LOCATÁRIO.<br>
@@ -283,8 +279,7 @@
         </p>
 
         <p class="parag">
-            <b>CLÁUSULA QUINTA</b><br>
-            <b>DAS OBRIGAÇÕES DA LOCADORA</b><br>
+            <b>CLÁUSULA QUINTA - DAS OBRIGAÇÕES DA LOCADORA</b><br>
             Constituem obrigações da LOCADORA:<br>
             I – entregar o veículo em perfeitas condições de funcionamento;<br>
             II – fornecer carregador compatível com o veículo;<br>
@@ -294,8 +289,7 @@
         </p>
 
         <p class="parag">
-            <b>CLÁUSULA SEXTA</b><br>
-            <b>DAS OBRIGAÇÕES DO LOCATÁRIO</b><br>
+            <b>CLÁUSULA SEXTA - DAS OBRIGAÇÕES DO LOCATÁRIO</b><br>
             O LOCATÁRIO obriga-se a:<br>
             I – utilizar a motocicleta exclusivamente para fins lícitos;<br>
             II – conduzir o veículo respeitando integralmente o Código de Trânsito Brasileiro;<br>
@@ -310,8 +304,7 @@
         </p>
 
         <p class="parag">
-            <b>CLÁUSULA SÉTIMA</b><br>
-            <b>DA UTILIZAÇÃO DA MOTOCICLETA ELÉTRICA</b><br>
+            <b>CLÁUSULA SÉTIMA - DA UTILIZAÇÃO DA MOTOCICLETA ELÉTRICA</b><br>
             7.1. O veículo deverá ser utilizado observando rigorosamente as recomendações técnicas do fabricante.<br>
             7.2. É vedado utilizar carregadores incompatíveis, adaptadores não homologados ou realizar qualquer intervenção no sistema elétrico da motocicleta.<br>
             7.3. A bateria deverá ser utilizada dentro das condições recomendadas pelo fabricante, evitando exposição prolongada a temperaturas extremas, impactos, submersão ou qualquer uso inadequado.<br>
@@ -319,8 +312,7 @@
         </p>
 
         <p class="parag">
-            <b>CLÁUSULA OITAVA</b><br>
-            <b>DA MANUTENÇÃO DA MOTOCICLETA</b><br>
+            <b>CLÁUSULA OITAVA - DA MANUTENÇÃO DA MOTOCICLETA</b><br>
             8.1. A LOCADORA será responsável pelas manutenções preventivas e corretivas decorrentes de defeitos de fabricação ou desgaste natural dos componentes, desde que não sejam provenientes de mau uso do veículo.<br>
             8.2. O LOCATÁRIO compromete-se a comunicar imediatamente qualquer falha mecânica, elétrica ou eletrônica observada na motocicleta.<br>
             8.3. É expressamente proibido ao LOCATÁRIO realizar qualquer reparo, substituição de peças, atualização de software, manutenção elétrica ou mecânica sem autorização prévia e expressa da LOCADORA.<br>
@@ -330,8 +322,7 @@
         </p>
 
         <p class="parag">
-            <b>CLÁUSULA NONA</b><br>
-            <b>DA BATERIA E DO CARREGAMENTO</b><br>
+            <b>CLÁUSULA NONA - DA BATERIA E DO CARREGAMENTO</b><br>
             9.1. O LOCATÁRIO declara ter recebido orientações quanto ao correto carregamento da bateria.<br>
             9.2. O carregamento deverá ocorrer exclusivamente utilizando carregadores homologados pela LOCADORA ou pelo fabricante.<br>
             9.3. É proibida qualquer adaptação elétrica.<br>
@@ -341,8 +332,7 @@
         </p>
 
         <p class="parag">
-            <b>CLÁUSULA DÉCIMA</b><br>
-            <b>DAS INFRAÇÕES DE TRÂNSITO</b><br>
+            <b>CLÁUSULA DÉCIMA - DAS INFRAÇÕES DE TRÂNSITO</b><br>
             10.1. Todas as multas ocorridas durante a posse do veículo serão integralmente de responsabilidade do LOCATÁRIO.<br>
             10.2. A LOCADORA poderá indicar o LOCATÁRIO como condutor infrator perante os órgãos competentes.<br>
             10.3. Caso haja cobrança dirigida inicialmente à LOCADORA, o LOCATÁRIO deverá efetuar o respectivo reembolso no prazo máximo de 05 (cinco) dias úteis após comunicação.<br>
@@ -350,8 +340,7 @@
         </p>
 
         <p class="parag">
-            <b>CLÁUSULA DÉCIMA PRIMEIRA</b><br>
-            <b>DA PROTEÇÃO MOTOMASTER</b><br>
+            <b>CLÁUSULA DÉCIMA PRIMEIRA - DA PROTEÇÃO MOTOMASTER</b><br>
             11.1. A contratação da Proteção MotoMaster é facultativa, devendo constar expressamente no Quadro Resumo da Operação.<br>
             11.2. A existência da proteção não afasta a responsabilidade do LOCATÁRIO pelos eventos excluídos da cobertura.<br>
             11.3. Permanecem excluídos, entre outros:<br>
@@ -360,12 +349,15 @@
             III --- utilização diversa da finalidade do veículo;<br>
             IV --- atos dolosos;<br>
             V --- utilização por pessoa não autorizada.<br>
-            11.4. Havendo negativa de cobertura em razão de conduta atribuída ao LOCATÁRIO, este responderá integralmente pelos prejuízos suportados pela LOCADORA.
+            11.4. Havendo negativa de cobertura em razão de conduta atribuída ao LOCATÁRIO, este responderá integralmente pelos prejuízos suportados pela LOCADORA.<br>
+            11.5. Na ocorrência de acidente, colisão, roubo ou furto envolvendo a motocicleta objeto deste contrato, o LOCATÁRIO ficará responsável pelo pagamento à LOCADORA do valor fixo de R$ 1.000,00 (mil reais), a título de participação no evento, por ocorrência, independentemente do valor total dos danos ou prejuízos, desde que o evento esteja amparado pela Proteção MotoMaster.<br>
+            11.5.1. A participação será devida para cada evento ocorrido durante a vigência do contrato e deverá ser paga pelo LOCATÁRIO no prazo máximo de 05 (cinco) dias úteis após a comunicação formal da LOCADORA.<br>
+            11.5.2. O pagamento da participação de R$ 1.000,00 (mil reais) limita-se aos eventos abrangidos pela Proteção MotoMaster e não implica reconhecimento de culpa pelo LOCATÁRIO.<br>
+            11.5.3. Caso o evento esteja excluído da cobertura em razão de dolo, culpa grave, condução sob efeito de álcool ou drogas, utilização por pessoa não autorizada, uso ilícito, descumprimento contratual ou qualquer outra hipótese de exclusão prevista neste instrumento, não se aplicará a limitação de R$ 1.000,00 (mil reais), podendo o LOCATÁRIO responder integralmente pelos prejuízos causados à LOCADORA, conforme as demais disposições deste contrato.
         </p>
 
         <p class="parag">
-            <b>CLÁUSULA DÉCIMA SEGUNDA</b><br>
-            <b>DOS SINISTROS</b><br>
+            <b>CLÁUSULA DÉCIMA SEGUNDA - DOS SINISTROS</b><br>
             12.1. Em caso de acidente, o LOCATÁRIO deverá comunicar imediatamente à LOCADORA.<br>
             12.2. Sempre que exigido pela legislação, deverá ser registrado Boletim de Ocorrência.<br>
             12.3. O LOCATÁRIO compromete-se a colaborar integralmente com todos os procedimentos administrativos relacionados ao sinistro.<br>
@@ -373,8 +365,7 @@
         </p>
 
         <p class="parag">
-            <b>CLÁUSULA DÉCIMA TERCEIRA</b><br>
-            <b>DO FURTO E ROUBO</b><br>
+            <b>CLÁUSULA DÉCIMA TERCEIRA - DO FURTO E ROUBO</b><br>
             13.1. Ocorrendo furto ou roubo, o LOCATÁRIO deverá:<br>
             I --- comunicar imediatamente às autoridades policiais;<br>
             II --- comunicar imediatamente à LOCADORA;<br>
@@ -384,8 +375,7 @@
         </p>
 
         <p class="parag">
-            <b>CLÁUSULA DÉCIMA QUARTA</b><br>
-            <b>DA VISTORIA</b><br>
+            <b>CLÁUSULA DÉCIMA QUARTA - DA VISTORIA</b><br>
             14.1. A LOCADORA poderá realizar vistorias periódicas.<br>
             14.2. O LOCATÁRIO compromete-se a apresentar a motocicleta sempre que solicitado.<br>
             14.3. A recusa injustificada poderá caracterizar descumprimento contratual.<br>
@@ -393,8 +383,7 @@
         </p>
 
         <p class="parag">
-            <b>CLÁUSULA DÉCIMA QUINTA</b><br>
-            <b>DA DEVOLUÇÃO DO VEÍCULO</b><br>
+            <b>CLÁUSULA DÉCIMA QUINTA - DA DEVOLUÇÃO DO VEÍCULO</b><br>
             15.1. Encerrado o contrato, a motocicleta deverá ser devolvida no local indicado pela LOCADORA.<br>
             15.2. O veículo deverá ser entregue juntamente com: chave principal; chave reserva (quando houver); carregador; cabo de carregamento; demais acessórios fornecidos.<br>
             15.3. Será realizada vistoria técnica.<br>
@@ -403,8 +392,7 @@
         </p>
 
         <p class="parag">
-            <b>CLÁUSULA DÉCIMA SEXTA</b><br>
-            <b>DA OPÇÃO DE AQUISIÇÃO</b><br>
+            <b>CLÁUSULA DÉCIMA SEXTA - DA OPÇÃO DE AQUISIÇÃO</b><br>
             16.1. Caso a modalidade contratada contemple opção de aquisição da motocicleta, esta somente poderá ser exercida após o cumprimento integral das condições previstas neste contrato.<br>
             16.2. A eventual transferência da propriedade dependerá de:<br>
             I --- inexistência de débitos;<br>
@@ -415,8 +403,7 @@
         </p>
 
         <p class="parag">
-            <b>CLÁUSULA DÉCIMA SÉTIMA</b><br>
-            <b>DAS PENALIDADES</b><br>
+            <b>CLÁUSULA DÉCIMA SÉTIMA - DAS PENALIDADES</b><br>
             17.1. Constituem infrações contratuais: utilização indevida da motocicleta; empréstimo não autorizado; modificações no veículo; atraso na devolução; omissão de informações; descumprimento das obrigações previstas neste contrato.<br>
             17.2. As penalidades poderão compreender, conforme a gravidade da infração:<br>
             I --- advertência;<br>
@@ -427,8 +414,7 @@
         </p>
 
         <p class="parag">
-            <b>CLÁUSULA DÉCIMA OITAVA</b><br>
-            <b>DA INADIMPLÊNCIA</b><br>
+            <b>CLÁUSULA DÉCIMA OITAVA - DA INADIMPLÊNCIA</b><br>
             18.1. Considera-se inadimplente o LOCATÁRIO que deixar de efetuar qualquer pagamento previsto neste contrato na data do respectivo vencimento.<br>
             18.2. A inadimplência não autoriza o LOCATÁRIO a interromper a devolução do veículo, reter bens pertencentes à LOCADORA ou suspender o cumprimento de quaisquer obrigações contratuais.<br>
             18.3. O atraso superior a <strong>15 (quinze) dias</strong>, salvo acordo formal entre as partes, poderá caracterizar infração contratual grave, facultando à LOCADORA promover a rescisão do contrato, exigir os valores vencidos e adotar as medidas cabíveis para recuperação do veículo, observada a legislação aplicável.<br>
@@ -437,8 +423,7 @@
         </p>
 
         <p class="parag">
-            <b>CLÁUSULA DÉCIMA NONA</b><br>
-            <b>DA RESCISÃO</b><br>
+            <b>CLÁUSULA DÉCIMA NONA - DA RESCISÃO</b><br>
             19.1. O presente contrato poderá ser rescindido:<br>
             I – pelo término do prazo contratual;<br>
             II – por acordo entre as partes;<br>
@@ -457,46 +442,40 @@
         </p>
 
         <p class="parag">
-            <b>CLÁUSULA VIGÉSIMA</b><br>
-            <b>DA OPÇÃO DE RENOVAÇÃO</b><br>
+            <b>CLÁUSULA VIGÉSIMA - DA OPÇÃO DE RENOVAÇÃO</b><br>
             20.1. Encerrado o prazo contratual, as partes poderão celebrar novo contrato de locação.<br>
             20.2. A renovação dependerá exclusivamente da concordância da LOCADORA.<br>
             20.3. A renovação poderá ocorrer com novo veículo, novos valores e novas condições comerciais.
         </p>
 
         <p class="parag">
-            <b>CLÁUSULA VIGÉSIMA PRIMEIRA</b><br>
-            <b>DO MANUAL DIGITAL</b><br>
+            <b>CLÁUSULA VIGÉSIMA PRIMEIRA - DO MANUAL DIGITAL</b><br>
             21.1. O LOCATÁRIO declara ciência de que todas as orientações de utilização da motocicleta serão disponibilizadas exclusivamente em formato digital.<br>
             21.2. O Manual Digital poderá ser atualizado pela LOCADORA sempre que necessário para refletir alterações técnicas, operacionais ou de segurança.<br>
             21.3. O LOCATÁRIO compromete-se a consultar periodicamente o Manual Digital disponibilizado pela LOCADORA.
         </p>
 
         <p class="parag">
-            <b>CLÁUSULA VIGÉSIMA SEGUNDA</b><br>
-            <b>DA PROTEÇÃO DE DADOS (LGPD)</b><br>
+            <b>CLÁUSULA VIGÉSIMA SEGUNDA - DA PROTEÇÃO DE DADOS (LGPD)</b><br>
             22.1. O LOCATÁRIO autoriza a coleta, tratamento e armazenamento de seus dados pessoais exclusivamente para fins relacionados à execução deste contrato.<br>
             22.2. Os dados poderão ser compartilhados com: empresas de proteção veicular; oficinas credenciadas; órgãos públicos; instituições financeiras; empresas responsáveis pela cobrança; sempre que necessário para cumprimento das obrigações contratuais ou legais.<br>
             22.3. A LOCADORA compromete-se a observar a Lei nº 13.709/2018 (Lei Geral de Proteção de Dados).
         </p>
 
         <p class="parag">
-            <b>CLÁUSULA VIGÉSIMA TERCEIRA</b><br>
-            <b>DAS COMUNICAÇÕES</b><br>
+            <b>CLÁUSULA VIGÉSIMA TERCEIRA - DAS COMUNICAÇÕES</b><br>
             23.1. As partes reconhecem como válidas as comunicações realizadas por: WhatsApp; E-mail; SMS; Carta; Plataforma eletrônica; Assinatura eletrônica.<br>
             23.2. Considerar-se-á válida qualquer comunicação enviada aos dados constantes do Quadro Resumo da Operação, cabendo ao LOCATÁRIO informar eventual alteração.
         </p>
 
         <p class="parag">
-            <b>CLÁUSULA VIGÉSIMA QUARTA</b><br>
-            <b>DA ASSINATURA ELETRÔNICA</b><br>
+            <b>CLÁUSULA VIGÉSIMA QUARTA - DA ASSINATURA ELETRÔNICA</b><br>
             24.1. As partes reconhecem como plenamente válida a assinatura eletrônica realizada por meio da plataforma <b>ZapSign</b>, ou outra plataforma equivalente que atenda aos requisitos legais.<br>
             24.2. A assinatura eletrônica produzirá os mesmos efeitos jurídicos da assinatura manuscrita.
         </p>
 
         <p class="parag">
-            <b>CLÁUSULA VIGÉSIMA QUINTA</b><br>
-            <b>DAS DISPOSIÇÕES GERAIS</b><br>
+            <b>CLÁUSULA VIGÉSIMA QUINTA - DAS DISPOSIÇÕES GERAIS</b><br>
             25.1. A eventual tolerância de uma das partes quanto ao descumprimento de qualquer obrigação contratual será considerada mera liberalidade, não constituindo renúncia de direitos.<br>
             25.2. A eventual nulidade de qualquer cláusula não prejudicará a validade das demais disposições do contrato.<br>
             25.3. Este contrato obriga as partes, seus herdeiros e sucessores.<br>
@@ -504,8 +483,7 @@
         </p>
 
         <p class="parag">
-            <b>CLÁUSULA VIGÉSIMA SEXTA</b><br>
-            <b>DO FORO</b><br>
+            <b>CLÁUSULA VIGÉSIMA SEXTA - DO FORO</b><br>
             26.1. As partes elegem o foro da Comarca da Capital do Estado do Rio de Janeiro para dirimir quaisquer controvérsias decorrentes deste contrato, renunciando a qualquer outro, por mais privilegiado que seja.
         </p>
 
